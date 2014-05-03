@@ -15,7 +15,6 @@ body {
   border: solid gray;
   border-radius: 10px;
   clear: both;
-
 }
 
 header h1{
@@ -47,7 +46,7 @@ header h1{
 
 .headshot {
 display: block;
-margin: 5px auto 35px auto;
+margin: 5px auto 40px auto;
 border-radius: 5px;
 overflow: hidden;
 }
@@ -83,26 +82,42 @@ background-color: gray;
   padding: 10px;
   font-size: 15px;
   float: left;
-
 }
 
 .article_content {
   width: 70%;
-  margin: 0 20px 0 20px;
+  max-width: 660px;
+  margin-left: 20px;
   padding: 10px;
-  /*float: left;*/
-  background-color: #7687CC;
+  }
 
+.about {
+  width: 70%;
+  padding: 10px;
+  margin: 10px;
+  max-width: 660px;
+  float: left;
+  border: solid gray;
+  border-spacing: 70%;
+  border-radius: 6px;
 }
+
+.contact {
+  width: 70%;
+  padding: 10px;
+  margin-left: 20px;
+  max-width: 660px;
+  float: left;
+  border: solid gray;
+  border-radius: 6px;
+}
+
 .form_field_table {
   margin-left: 30px;
   border: none;
 }
 .form_field_table td {color: #00f;}
 
-form {
-  color: #00f;
-}
 .buttons {
   float: right;
 }
@@ -111,9 +126,10 @@ form {
   float: right;
 }
 
-contact_information {
+.contact_information {
     margin-left: 20px;
 }
+
 .footer {
   text-align: center;
   background-color: #A5A8CC
@@ -122,7 +138,6 @@ contact_information {
   margin: 20px;
   clear:both;
 }
-
 
 .attribution {
   font-size: 12px;
